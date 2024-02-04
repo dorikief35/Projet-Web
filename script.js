@@ -7,11 +7,12 @@ const toastBody = document.querySelector(".toast-body")
 /*  app inisialilzation  */
 const appInit = () => {
 	fetchData(
-		"https://node-expess.doriankieffer.repl.co/api/articles",
+		"https://f94f5063-23a9-4204-86fe-936f96041c64-00-1ixbfw7j32wgw.worf.replit.dev/api/articles",
 		writeHtml
 	)
 }
 
+/*"https://node-expess.doriankieffer.repl.co/api/articles" */
 /**
  * Fetches data from the specified URL and invokes the callback with the retrieved data.
  *
