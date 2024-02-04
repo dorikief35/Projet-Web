@@ -120,7 +120,9 @@ const postData = (newTitle, newImgUrl, articleId) => {
 	const modal = bootstrap.Modal.getInstance(myModalEl)
 
 	/*  POST FETCH  */
-	const url = `https://node-expess.doriankieffer.repl.co/api/articles/${articleId}`
+	const url = `https://f94f5063-23a9-4204-86fe-936f96041c64-00-1ixbfw7j32wgw.worf.replit.dev/api/articles/${articleId}`
+
+	//https://node-expess.doriankieffer.repl.co/api/articles/${articleId}
 
 	const data = {
 		title: newTitle,
